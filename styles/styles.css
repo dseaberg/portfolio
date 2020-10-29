@@ -1,3 +1,67 @@
-* {
-  border: 1px dashed firebrick;
+body {
+  background-color: palegreen;
+}
+
+h1 {
+  color: fuchsia;
+  font-style: italic;
+}
+
+section {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 70%;
+  border: 2px solid black;
+}
+
+.projects {
+  color: darkorange;
+}
+
+.interests {
+  color: brown;
+}
+
+article {
+  width: 75%;
+}
+
+aside {
+  margin-left: 70%;
+  width: 30%;
+  background-color: lawngreen;
+  border: 2px dotted white;
+}
+
+a:hover {
+  background-color: seashell;
+}
+
+.nav-items {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer {
+  font-style: italic;
+  color: crimson;
+}
+
+.details-article {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 70%;
+}
+
+.details-heading {
+  color: dimgray;
 }
