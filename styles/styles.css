@@ -49,9 +49,15 @@ a:hover {
   background-color: seashell;
 }
 
+nav {
+  width: 20%;
+}
+
 .nav-items {
-  display: inline-flex;
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 li {
