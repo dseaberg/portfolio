@@ -10,7 +10,7 @@ body {
 
 h1 {
   color: fuchsia;
-  font-style: italic;
+  font-family: 'Dancing Script', cursive;
 }
 
 section {
@@ -74,4 +74,12 @@ footer {
 
 .details-heading {
   color: dimgray;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h2, h3 {
+  font-family: 'Arimo', sans-serif;
 }
