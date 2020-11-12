@@ -1,3 +1,9 @@
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 body {
   background-color: palegreen;
 }
@@ -25,14 +31,18 @@ section {
 }
 
 article {
-  width: 75%;
+  width: 60%;
+}
+
+.projects > article {
+  float: left;
 }
 
 aside {
-  margin-left: 70%;
   width: 30%;
   background-color: lawngreen;
   border: 2px dotted white;
+  float: right;
 }
 
 a:hover {
