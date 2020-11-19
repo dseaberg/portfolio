@@ -40,13 +40,27 @@ article {
 
 aside {
   width: 30%;
-  background-color: lawngreen;
+  background-color: gray;
   border: 2px dotted white;
   float: right;
 }
 
+.aside-items li:nth-child(odd) a {
+  color: turquoise;
+}
+
+.aside-items li:nth-child(even) a {
+  color: tomato;
+}
+
+a {
+  font-size: 100%;
+  transition: font-size 2s 300ms;
+}
+
 a:hover {
   background-color: seashell;
+  font-size: 200%;
 }
 
 nav {
@@ -88,4 +102,23 @@ p {
 
 h2, h3 {
   font-family: 'Arimo', sans-serif;
+}
+
+
+.self-portrait img {
+  width: 300px;
+  transition: width 3s;
+  transition-timing-function: cubic-bezier(0.25, 1.5, 0.75, -0.75);
+}
+
+.self-portrait img:hover {
+  width: 500px;
+}
+
+.interests article:nth-child(2n) {
+  background-color: aquamarine;
+}
+
+.interests article:nth-child(2n+1) {
+  background-color: blanchedalmond;
 }
