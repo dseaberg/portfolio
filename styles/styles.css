@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: palegreen;
+  background-color: olive;
 }
 
 h1 {
@@ -23,7 +23,7 @@ section {
 }
 
 .projects {
-  color: darkorange;
+  color: white;
 }
 
 .interests {
@@ -40,9 +40,13 @@ article {
 
 aside {
   width: 30%;
-  background-color: gray;
+  background-color: #525252;
   border: 2px dotted white;
   float: right;
+}
+
+aside {
+  color: #FFFF00;
 }
 
 .aside-items li:nth-child(odd) a {
@@ -93,7 +97,7 @@ footer {
 }
 
 .details-heading {
-  color: dimgray;
+  color: mintcream;
 }
 
 p {
